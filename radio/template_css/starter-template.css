@@ -1,0 +1,43 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+
+}
+
+#fondo {
+    background-image: url('../../radio/img/fondo.jpg');
+}
+
+
+#live {
+
+    border-radius: 50%;
+    height: 11px;
+    margin: 19px 5px 0 10px;
+    position: relative;
+    top: 50%;
+    width: 11px;
+    animation: pulse 0.5s infinite;
+}
+
+#actual {
+    border-radius: 0 0 3px 3px;
+    text-align: left;
+    width: 100%;
+}
+
+.intermintente {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #1eff06;
+    }
+    100% {
+        background-color: #0a5d0d;
+    }
+}
